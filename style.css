@@ -36,6 +36,15 @@ h3 {
 	line-height: 0.8;
 }
 
+	h6 {
+		color:#3B3B3B;
+		font-family: 'Oxygen', sans-serif;
+		font-size:14px;
+		font-style:normal;
+		font-weight:bold;
+		line-height: 0.8;
+}
+
 p {
 	color:#3B3B3B;
 	font-family: 'Oxygen', sans-serif;
