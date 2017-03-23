@@ -39,10 +39,10 @@ h3 {
 	h6 {
 		color:#3B3B3B;
 		font-family: 'Oxygen', sans-serif;
-		font-size:14px;
+		font-size:14px	;
 		font-style:normal;
 		font-weight:bold;
-		line-height: 0.8;
+		line-height: 1;
 }
 
 p {
