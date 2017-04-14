@@ -12,6 +12,23 @@
 <h3 style="font-weight:700; margin-top: 20px; margin-bottom: 100px ;">@diegodossantos</h3>
 <h2>Twitter buttons</h2>
 
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
 <p>Hashtag</p>
 <a class="twitter-hashtag-button" href="https://twitter.com/intent/tweet?button_hashtag=GoBigWinBig"> Tweet #GoBigWinBig</a>
 </body>
