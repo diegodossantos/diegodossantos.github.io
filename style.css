@@ -6,21 +6,21 @@ body {
 	background-position:top left;
 	background-attachment:fixed;
 	margin-left:50px;
+	font-family: 'Catamaran', sans-serif;
+
 }
 
 h1 {
 	color:#3B3B3B;
-	font-family: 'Oxygen', sans-serif;
 	font-size: 70px;
 	font-weight: 300;
-	line-height: 0.2;
+	/* line-height: 0.2; */
 	margin-top:250px;
 	text-align: center;
 }
 
 h2 {
 	color:#3B3B3B;
-	font-family: 'Oxygen', sans-serif;
 	font-size:28px	;
 	font-style:normal;
 	font-weight:normal;
@@ -29,7 +29,6 @@ h2 {
 
 h3 {
 	color:#3B3B3B;
-	font-family: 'Oxygen', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:normal;
@@ -38,7 +37,6 @@ h3 {
 
 	h6 {
 		color:#3B3B3B;
-		font-family: 'Oxygen', sans-serif;
 		font-size:14px	;
 		font-style:normal;
 		font-weight:bold;
@@ -47,7 +45,6 @@ h3 {
 
 p {
 	color:#3B3B3B;
-	font-family: 'Oxygen', sans-serif;
 	font-size:14px	;
 	font-style:normal;
 	font-weight:normal;
