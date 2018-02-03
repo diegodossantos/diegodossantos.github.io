@@ -34,12 +34,7 @@ p {
 	color:#3B3B3B;
 }
 
-a {
-  /* transition: color .3s; */
-  color: #269268;
-}
-
-a:link,
-/* a:visited { color: #269268; } */
-a:hover   { color: #269268; }
+a:link 		{ color: #269268; }
+a:visited { color: #269268; }
+a:hover   { text-decoration: underline; }
 /* a:active  { color: #269268; } */
