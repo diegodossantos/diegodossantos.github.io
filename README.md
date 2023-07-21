@@ -12,6 +12,9 @@ Learning git, github, and brushing up on basic css and html while I build my per
 - [x] Write OpenGraph code - [source](http://ogp.me/#metadata), [debugger](https://developers.facebook.com/tools/debug/)
 - [x] Set up Google Analytics -
 - [x] Home page copy
-- [ ] Arrow of time
-- [ ] Update email link to a contact form page
+- [x] Arrow of time
+- [ ] Build a contact form on a new page
+- [ ] Update email link to contact page form
 - [ ] Add photo to home page with different version for mobile screens
+- [ ] New header for all pages but index
+- [ ] Footer for all pages
