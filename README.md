@@ -8,15 +8,10 @@ Learning git, github, and brushing up on basic css and html while I build my per
 - [x] Write first draft CSS
 - [x] Point domain to github.io page - [source](http://abdelraoof.com/blog/2014/09/20/configuring-namecheap-dns-for-github/)
 - [x] Define pages
-* v1: Home, About
-* v2: Home, About, Arrow of time
-* v3: Home, About, Arrow of time, Photos
-- [ ] Research design/architecture of similar websites
-- [ ] Hand draft wireframes that can scale
-- [ ] Find HTML/CSS template
-- [ ] Decide if I'm going to use Jekyll - if so, [doc](http://jmcglone.com/guides/github-pages/)
-- [ ] Edit template to *match* final paper draft
-- [ ] Implement clean URL if not on page boilerplate
 - [x] Write Twitter Card code - [source](https://dev.twitter.com/cards/types/summary), [debugger](https://cards-dev.twitter.com/validator)
 - [x] Write OpenGraph code - [source](http://ogp.me/#metadata), [debugger](https://developers.facebook.com/tools/debug/)
 - [x] Set up Google Analytics -
+- [x] Home page copy
+- [ ] Arrow of time
+- [ ] Update email link to a contact form page
+- [ ] Add photo to home page with different version for mobile screens
