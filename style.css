@@ -4,6 +4,7 @@
 .portrait-image        { display: none; }
 .home-margins          { margin: auto; margin-top:10%; max-width: 700px; }
 
+p { font-size: 1.15em}
 h1 { font-size: 2em}
 h2 { font-size: 1.5em}
 h3 { font-size: 1.125em}
@@ -14,7 +15,7 @@ a:hover   { text-decoration: underline; }
 
 body {
 color: #404040;
-background-color:#f1f0eb;
+background-color:#f7f7f7;
 text-align: left;
 /* background-repeat:no-repeat;
 background-position:top left;
@@ -30,10 +31,3 @@ background-attachment:fixed; */
 		padding: 0;
 	}
 }
-
-/* 
-@media screen and (min-width: 768px) {
-	.show-on-large-screens {
-	  display: block;
-	}
-  } */
