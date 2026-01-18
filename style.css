@@ -17,9 +17,6 @@ body {
 color: #404040;
 background-color:#f9f9f9;
 text-align: left;
-/* background-repeat:no-repeat;
-background-position:top left;
-background-attachment:fixed; */
 -webkit-text-size-adjust: 100%;
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -31,16 +28,22 @@ td {
 }
 
 td img {
-  transition: opacity 0.3s ease;
+  transition: opacity 0.1s ease;
 }
 
-/* Create hover state - you'll need two images per cell */
+/* Hover effect for table images */
+td {
+  position: relative;
+}
+
 td img.hover-image {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 td:hover img.default-image {
