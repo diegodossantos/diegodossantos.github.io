@@ -24,6 +24,32 @@ background-attachment:fixed; */
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* Hover effect for table images */
+td {
+  position: relative;
+  display: inline-block;
+}
+
+td img {
+  transition: opacity 0.3s ease;
+}
+
+/* Create hover state - you'll need two images per cell */
+td img.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+td:hover img.default-image {
+  opacity: 0;
+}
+
+td:hover img.hover-image {
+  opacity: 1;
+}
 
 @media screen and (max-width: 600px) {
 	body {
