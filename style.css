@@ -27,3 +27,7 @@ text-align: left;
 		padding: 0;
 	}
 }
+
+td img {
+  cursor: pointer;
+}
